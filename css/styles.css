@@ -369,15 +369,15 @@ ul {
 }
 
 .home-img .circle::before {
-  content: "";
+  content: "🚀";
   position: absolute;
-  height: 60px;
-  width: 60px;
+  height: 0px;
+  width: 0px;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   left: 30px;
   top: 30px;
-  transform-origin: 170px 170px;
+  transform-origin: 160px 160px;
   animation: spin_01 10s linear infinite;
 }
 /* --------------------- Home Section End ----------------------------- */
@@ -561,9 +561,9 @@ ul {
 
 .fun-facts-img img {
   max-width: 500px;
-  /* width: 100%; */
-  box-shadow: var(--shadow-black-100);
-  border-radius: 32px;
+  width: 100%;
+  /* box-shadow: var(--shadow-black-100); */
+  border-radius: 2px;
   animation: bounceTop_01 3s ease infinite;
 }
 
@@ -1129,7 +1129,7 @@ ul {
     padding: 0;
     font-size: 17px;
     color: #ffffff;
-    margin-right: 40px;
+    /* margin-right: 40px; */
   }
 
   .navbar-nav {
@@ -1148,8 +1148,8 @@ ul {
   }
 
   .home-image .circle {
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 300px;
   }
 
   .home-image .circle:before {
@@ -1221,6 +1221,11 @@ ul {
   }
 
   .toggle-theme {
-    margin-right: 50px;
+    margin-right: 10px;
+  }
+
+  .home-image .circle {
+    height: 100px;
+    width: 100px;
   }
 }
