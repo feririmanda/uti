@@ -573,6 +573,7 @@ ul {
   color: var(--black-400);
   margin: 0 0 15px;
   font-weight: 300;
+  text-align: justify;
 }
 
 .fun-fact-item {
@@ -583,8 +584,8 @@ ul {
   margin-top: 30px;
 }
 
-.fun-fact-item h3 {
-  font-size: 40px;
+.fun-fact-item h4 {
+  font-size: 20px;
   font-weight: 700;
   color: #ffffff;
   margin: 0 0 5px;
@@ -601,16 +602,31 @@ ul {
 }
 
 .fun-fact-item.style-1 {
-  background-color: var(--color-1);
+  /* background-color: var(--main-color); */
+  background-image: linear-gradient(
+    to right,
+    rgb(104, 209, 209),
+    rgb(110, 138, 236)
+  );
 }
-.fun-fact-item.style-2 {
-  background-color: var(--color-2);
+
+.fun-fact-item.style-1 p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0 0 15px;
+  font-weight: 300;
+  text-align: justify;
 }
-.fun-fact-item.style-3 {
-  background-color: var(--color-3);
-}
-.fun-fact-item.style-4 {
-  background-color: var(--main-color);
+
+.fun-fact-item.style-1 ul li {
+  font-size: 16px;
+  line-height: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0 0 15px;
+  text-align: justify;
+  list-style-type: circle;
 }
 /* ------------------ Fun Fact Section End ------------------------------------- */
 
