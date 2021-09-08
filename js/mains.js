@@ -34,21 +34,15 @@ $(document).ready(function () {
 
   // --------------- App Screenshots Carousel -----------------
   $(".screenshots-carousel").owlCarousel({
-    loop: true,
-    margin: 0,
-    autoplay: true,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 2,
-      },
-      1000: {
-        items: 4,
-      },
-    },
+    animateOut: "slideOutDown",
+    animateIn: "flipInX",
+    items: 1,
+    margin: 30,
+    stagePadding: 30,
+    smartSpeed: 450,
+    // items: 1,
+    // margin: 10,
+    autoHeight: true,
   });
 
   // --------------- Testimonials Carousel -----------------
