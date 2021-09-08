@@ -13,62 +13,11 @@ $(document).ready(function () {
     }
   });
 
-  // --------------- Features Carousel -----------------
+  // --------------- service Carousel -----------------
   $(".features-carousel").owlCarousel({
     loop: true,
     margin: 0,
     autoplay: false,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 2,
-      },
-      1000: {
-        items: 3,
-      },
-    },
-  });
-
-  // --------------- App Screenshots Carousel -----------------
-  $(".screenshots-carousel").owlCarousel({
-    animateOut: "slideOutDown",
-    animateIn: "flipInX",
-    items: 1,
-    margin: 30,
-    stagePadding: 30,
-    smartSpeed: 450,
-    // items: 1,
-    // margin: 10,
-    autoHeight: true,
-  });
-
-  // --------------- Testimonials Carousel -----------------
-  $(".testimonials-carousel").owlCarousel({
-    loop: true,
-    margin: 0,
-    autoplay: true,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 2,
-      },
-      1000: {
-        items: 3,
-      },
-    },
-  });
-
-  // --------------- Team Carousel -----------------
-  $(".team-carousel").owlCarousel({
-    loop: true,
-    margin: 0,
-    autoplay: true,
     responsiveClass: true,
     responsive: {
       0: {
