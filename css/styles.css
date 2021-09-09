@@ -4,7 +4,7 @@
 
 /* -------------- Global Css Start ------------------ */
 :root {
-  --main-color: #7857fe;
+  --main-color: #364c8b;
   --color-1: #e91e63;
   --color-2: #f5ae10;
   --color-3: #09d69c;
@@ -488,7 +488,7 @@ ul {
 
 .features .feature-item ul li {
   font-size: 16px;
-  line-height: 15px;
+  line-height: 26px;
   font-weight: 300;
   color: var(--black-400);
   margin: 0 0 15px;
@@ -627,22 +627,26 @@ ul {
   display: none;
 }
 .card-title {
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 26px;
   /* color: var(--black-900); */
   margin: 0;
-  font-weight: 300;
+  font-weight: var(--bg-dark);
 }
 
 .card-text {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 26px;
   color: var(--black-400);
   margin: 0;
   font-weight: 300;
   text-align: justify;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.card-body a {
+  font-size: 14px;
 }
 .card-body a:hover {
   text-decoration: none;
@@ -723,6 +727,7 @@ ul {
   font-weight: 300;
   line-height: 26px;
   margin: 0;
+  text-align: justify;
 }
 
 .footer-col ul {
