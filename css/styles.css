@@ -515,7 +515,7 @@ ul {
   width: 100%;
   /* box-shadow: var(--shadow-black-100); */
   border-radius: 2px;
-  animation: bounceTop_01 3s ease infinite;
+  /* animation: bounceTop_01 3s ease infinite; */
 }
 
 .fun-facts-text p {
@@ -694,29 +694,12 @@ ul {
   color: var(--black-400);
 }
 
-.contact-form .form-group {
-  margin-bottom: 25px;
-}
-
-.contact-form .form-control {
-  height: 52px;
-  border: 1px solid transparent;
-  box-shadow: var(--shadow-black-100);
-  border-radius: 30px;
-  padding: 0 24px;
-  color: var(--black-900);
-  background-color: var(--black-000);
-  transition: all 0.5s ease;
-}
-
-.contact-form textarea.form-control {
-  height: 140px;
-  padding-top: 12px;
-  resize: none;
-}
-
-.contact-form .form-control:focus {
-  border-color: var(--main-color);
+.map {
+  border-radius: 10px;
+  overflow: hidden;
+  width: fit-content;
+  display: flex;
+  height: fit-content;
 }
 /* --------------------- Contact section end --------------- */
 
@@ -907,5 +890,13 @@ ul {
   .card {
     margin-bottom: 40px;
     /* text-align: center; */
+  }
+
+  .map iframe {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 370px;
+    display: flex;
+    height: 200px;
   }
 }
