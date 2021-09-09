@@ -378,15 +378,15 @@ ul {
 }
 
 .home-img .circle::before {
-  content: "🚀";
+  content: "";
   position: absolute;
-  height: 0px;
-  width: 0px;
+  height: 30px;
+  width: 30px;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   left: 30px;
   top: 30px;
-  transform-origin: 160px 160px;
+  transform-origin: 170px 170px;
   animation: spin_01 10s linear infinite;
 }
 /* --------------------- Home Section End ----------------------------- */
