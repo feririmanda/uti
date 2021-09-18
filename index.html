@@ -97,7 +97,7 @@
         <div class="row align-items-center">
           <div class="col-md-5">
             <div class="home-text">
-              <h1>We solve your welding problem</h1>
+              <h1 id="typingText"></h1>
               <p>
                 Perusahaan yang bergerak dibidang jasa dan penjualan,
                 diantaranya Service Company dan penjualan Maintenance Part.
@@ -529,6 +529,30 @@
       function viewAllArtikel(){
         $('.hide-artikel').toggle();
       }
+
+
+      let speed =200;
+      let i = 0;
+      let typingText = document.getElementById("typingText");
+      let txt = "We Solve Your Welding Problem";
+
+      function typeWriter()
+      {
+        if(i < txt.length)
+        {
+          typingText.innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+        else
+        {
+          i = 0;
+          typingText.innerHTML = txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed); 
+        }
+      }
+      typeWriter();
     </script>
   </body>
 </html>
